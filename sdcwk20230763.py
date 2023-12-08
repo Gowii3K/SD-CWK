@@ -1,8 +1,7 @@
 # I declare that my work contains no examples of misconduct, such as plagiarism, or collusion.
 # Any code taken from other sources is referenced within my code soluƟon.
-# Student ID: ……………………..…
-# Date: ……………………..…
-
+# Student ID:  2051761
+# Date: 08/12/2023
 
 from graphics import *
 
