@@ -7,7 +7,7 @@
 from graphics import *
 
 def main():
-    version=input("S for student or T for Teacher")
+    version=input("Type in 's' if you are a student or type in 't' if you are staff :")
     # enter student version if input is for student
     if version.lower()=="s":  
         entered_marks=get_credits()
@@ -44,15 +44,15 @@ def main():
 def get_credits():
     try:
         #reprompt if any input is not in valid range
-        pass_cred=int(input("Enter pass credits "))
+        pass_cred=int(input("Enter pass credits :"))
         if pass_cred not in mark_range:
             print("out of range")
             return None
-        defer_cred=int(input("Enter defer credits  "))
+        defer_cred=int(input("Enter defer credits  :"))
         if defer_cred not in mark_range:
             print("out of range")
             return None
-        fail_cred=int(input("Enter fail credits "))
+        fail_cred=int(input("Enter fail credits :"))
         if fail_cred not in mark_range:
             print("out of range")
             return None
