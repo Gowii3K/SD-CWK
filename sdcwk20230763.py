@@ -124,10 +124,10 @@ def output():
     l3.draw(win)
     l4=Text(Point(600,600),"Excluded")
     l4.draw(win)
-    point1=(550-(results["Progress"])*25)
-    point2=(550-(results["Progress (module trailer)"])*25)
-    point3=(550-(results["Do not progress(module retriever)"])*25)
-    point4=(550-(results["Exclude"])*25) 
+    point1=(550-(results["Progress"])*15)
+    point2=(550-(results["Progress (module trailer)"])*15)
+    point3=(550-(results["Do not progress(module retriever)"])*15)
+    point4=(550-(results["Exclude"])*15) 
 
 
 
